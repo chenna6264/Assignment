@@ -1,10 +1,10 @@
 # Internship Assignment
 ## overview
-     This project includes the deployment of an azure-based web application infrastructure. The setup includes:
-     - **Three Virtual Machines (VMs)** running Apache to serve different responses naming as Server1,Server2,Interview
-     - **Azure Application Gateway** for load balancing.
-     - **Path-based routing** to direct requests to  /server2, and /interview.
-     - **Azure Private DNS** (`dvstech.com`) for name resolution of the servers.
+This project includes the deployment of an azure-based web application infrastructure. The setup includes:
+ - **Three Virtual Machines (VMs)** running Apache to serve different responses naming as I am Server1,Server2,Interview
+ - **Azure Application Gateway** for load balancing.
+ - **Path-based routing** to direct requests to  /server2, and /interview.
+ - **Azure Private DNS** (`dvstech.com`) for name resolution of the servers.
 
 
 ## Architecture
@@ -107,8 +107,8 @@ The following diagram illustrates the infrastructure:
 ##  Verify and Test
 
 1. Access the Application Gateway's public IP or DNS name
-2. Test paths: http://4.254.42.251, /Server2, /Interview
-3. From a VM within the VNet, test DNS resolution for the server
+2. Test paths: http://4.254.42.251, http://4.254.42.251/Server2, http://4.254.42.251/Interview
+3. From a VM within the VNet, test DNS resolution for the server(server2 public IP: 13.70.67.168 )
 
 
 
