@@ -64,7 +64,53 @@ The following diagram illustrates the infrastructure:
 * Configure frontend IP, backend pools, and routing rules
 *  Review and create
 
+  
+
 ![Frontend](frontend.PNG)
+
+
+![Backend](backend.PNG)
+
+
+![Routing](routingrules.PNG)
+
+
+![Backendsettings](Backendset.PNG)
+
+
+![Path](path.PNG)
+
+
+![Path](path2.PNG)
+
+![Helath](health.PNG)
+
+![AGW](AGW.PNG)
+
+##  Set Up Azure Private DNS Zone
+-   Go to "Private DNS zones" in Azure portal
+-   Create a new zone: dvstech.com
+-  Link to Server1-vnet
+-  Need enable auto registration
+
+  
+  ![DNS](dvstech.PNG)
+
+
+  ![VMlink](VMlink.PNG)
+
+  
+  ![Auto reg](auto.PNG)
+  
+  
+ 
+##  Verify and Test
+
+1. Access the Application Gateway's public IP or DNS name
+2. Test paths: http://4.254.42.251, /Server2, /Interview
+3. From a VM within the VNet, test DNS resolution for the server
+
+
 
 
 
