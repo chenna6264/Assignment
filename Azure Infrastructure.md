@@ -113,6 +113,22 @@ The following diagram illustrates the infrastructure:
 
 
 
+![Server1](Server1.PNG)
+
+
+
+![Server2](Server2.PNG)
+
+
+
+![Interview](Interview.PNG)
+
+
+![DNS Login](Dnslogin.PNG)
+
+
+
+
 
 
 
