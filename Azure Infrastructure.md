@@ -64,6 +64,9 @@ The following diagram illustrates the infrastructure:
 * Configure frontend IP, backend pools, and routing rules
 *  Review and create
 
+![Frontend](frontend.PNG)
+
+
 
 
 
